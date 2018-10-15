@@ -10,7 +10,7 @@ body {
 
 .main-header {
     display:flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     padding: 25px;
@@ -23,6 +23,7 @@ body {
     display: block;
     width: 160px;
     height: 230px;
+    margin-left: 50px;
     box-shadow: 0px 2px 10px 1px rgba(256, 256, 256, 0.4);
 }
 
@@ -30,12 +31,7 @@ body {
     width: 300px;
     font-size: 3em;
     font-weight: bold;
-}
-
-.main-header .specialty {
-    width: 400px;
-    font-size: 2em;
-    font-weight: bold;
+    margin-left: 50px;
 }
 
 main {
@@ -44,6 +40,7 @@ main {
     background-color:#fff;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
 }
+
 main p,
 .project-tagline {
     line-height: 1.5;
@@ -69,6 +66,7 @@ a:focus {
     text-decoration: none;
     color: #2d7788;
 }
+
 aside a {
     color:#fff;
 }
@@ -173,15 +171,11 @@ aside .interests-list li:last-child {
 }
 
 .html-css .level-bar-inner {
-    width:350px;
+    width:250px;
 }
 
 .js .level-bar-inner {
-    width:40px;
-}
-
-.ang-re-no .level-bar-inner {
-    width: 0px;
+    width:30px;
 }
 
 .git .level-bar-inner {
@@ -189,7 +183,7 @@ aside .interests-list li:last-child {
 }
 
 .photoshop .level-bar-inner {
-    width: 210px;
+    width: 140px;
 }
 
 .main-wrapper .experiences-section .item,
@@ -234,4 +228,8 @@ aside .interests-list li:last-child {
 .main-footer{
     text-align: center;
     padding: 30px 0;
+}
+
+.main-footer .redesigned{
+    color: #97AAC3;
 }
